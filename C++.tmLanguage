@@ -57,7 +57,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(catch|operator|try|throw|using)\b</string>
+			<string>\b(catch|operator|try|throw|using|concept|requires)\b</string>
 			<key>name</key>
 			<string>keyword.control.c++</string>
 		</dict>
