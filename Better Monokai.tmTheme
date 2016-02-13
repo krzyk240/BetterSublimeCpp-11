@@ -20,9 +20,9 @@
 		<string>#a6e22e</string>
 	</dict>
 	<key>name</key>
-	<string>Monokai Extended</string>
+	<string>Better Monokai</string>
 	<key>semanticClass</key>
-	<string>theme.dark.monokai_extended</string>
+	<string>theme.dark.better_monokai</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -165,15 +165,37 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Operator dereference</string>
+			<key>scope</key>
+			<string>keyword.operator.dereference</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffbf80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operator access</string>
+			<key>scope</key>
+			<string>keyword.operator.access</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffbf80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Storage type C++ class/struct</string>
 			<key>scope</key>
 			<string>storage.type.class.c++</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
+				<!-- <key>fontStyle</key> -->
+				<!-- <string>bold italic</string> -->
 				<key>foreground</key>
-				<string>#50cdf0</string>
+				<string>#3399ff</string>
 				<!-- <string>#fd971f</string> -->
 			</dict>
 		</dict>
@@ -187,6 +209,21 @@
 				<key>fontStyle</key>
 				<string> underline</string>
 				<key>foreground</key>
+				<!-- <string>#fd971f</string> -->
+				<string>#a6e22e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Type name</string>
+			<key>scope</key>
+			<string>entity.name.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> underline</string>
+				<key>foreground</key>
+				<!-- <string>#fd971f</string> -->
 				<string>#a6e22e</string>
 			</dict>
 		</dict>
@@ -200,7 +237,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#a6e22e</string>
+				<string>#fd971f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -213,21 +250,38 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
+				<!-- <string>#fd971f</string> -->
 				<string>#a6e22e</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function name</string>
+			<string>Function call</string>
 			<key>scope</key>
-			<string>entity.name.function-call.c++</string>
+			<string>entity.name.function-call</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#a6e22e</string>
-				<!-- <string>#66d9ef</string> -->
+				<!-- <string>#fd971f</string> -->
+				<!-- <string>#a6e22e</string> -->
+				<string>#66d9ef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function call</string>
+			<key>scope</key>
+			<string>support.function.any-method</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#fd971f</string> -->
+				<!-- <string>#a6e22e</string> -->
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -238,7 +292,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#fd971f</string>
 			</dict>
@@ -1737,7 +1791,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#a6e22e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1748,7 +1802,13 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#967EFB</string>
+				<string>#5e7cff</string>
+				<!-- <string>#5eafff</string> -->
+				<!-- <string>#7ebcfb</string> -->
+				<!-- <string>#e3e362</string> -->
+				<!-- <string>#fdd41f</string> -->
+				<!-- <string>#fd971f</string> -->
+				<!-- <string>#967efb</string> -->
 			</dict>
 		</dict>
 		<dict>
