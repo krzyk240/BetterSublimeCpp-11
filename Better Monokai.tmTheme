@@ -187,6 +187,39 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Doxygen keyword</string>
+			<key>scope</key>
+			<string>comment.doxygen.keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#239023</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Doxygen keyword</string>
+			<key>scope</key>
+			<string>comment.doxygen.keyword.errors</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff3333</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Doxygen keyword</string>
+			<key>scope</key>
+			<string>comment.doxygen.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d4ae16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Storage type C++ class/struct</string>
 			<key>scope</key>
 			<string>storage.type.class.c++</string>

@@ -1049,6 +1049,7 @@
 			<key>patterns</key>
 			<array>
 				<dict> <key>include</key> <string>#comment-banner-line</string> </dict>
+				<dict> <key>include</key> <string>#comment-doxygen</string> </dict>
 				<dict> <key>include</key> <string>#comment-task-tag-line</string> </dict>
 				<dict> <key>include</key> <string>#lex-continuation</string> </dict>
 				<dict> <key>include</key> <string>#lex-newline</string> </dict>
@@ -1063,6 +1064,32 @@
 				<key>1</key> <dict> <key>name</key> <string>meta.toc-list.banner.c</string> </dict>
 				<key>3</key> <dict> <key>name</key> <string>punctuation.whitespace.newline.c</string> </dict>
 			</dict>
+		</dict>
+
+		<key>comment-doxygen</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>@(brief|details|return)</string>
+					<key>name</key> <string>comment.doxygen.keyword</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>@errors</string>
+					<key>name</key> <string>comment.doxygen.keyword.errors</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(@param|@p)\s+([_A-Za-z]\w*)\b</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key> <dict> <key>name</key> <string>comment.doxygen.keyword</string> </dict>
+						<key>2</key> <dict> <key>name</key> <string>comment.doxygen.parameter</string> </dict>
+					</dict>
+				</dict>
+			</array>
 		</dict>
 
 		<key>comment-task-tag-line</key>
