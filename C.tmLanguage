@@ -1082,7 +1082,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(@param|@p)\s+([_A-Za-z]\w*)\b</string>
+					<string>(@param|@p|@tparam)\s+([_A-Za-z]\w*)\b</string>
 					<key>captures</key>
 					<dict>
 						<key>1</key> <dict> <key>name</key> <string>comment.doxygen.keyword</string> </dict>
@@ -1266,10 +1266,17 @@
 					</dict>
 				</dict>
 				<dict>
-					<key>match</key> <string>\s*\b((?:__|(?!\w+__))asm(?:__)?|break|case|continue|default|do|else|for|goto|if|_Pragma|return|switch|while|__extension__)\b</string>
+					<key>match</key> <string>\s*\b((?:__|(?!\w+__))asm(?:__)?|break|continue|default|do|else|for|goto|if|_Pragma|return|switch|while|__extension__)\b</string>
 					<key>captures</key>
 					<dict>
 						<key>1</key> <dict> <key>name</key> <string>keyword.control.c</string> </dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>match</key> <string>\s*\b(case)\b</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key> <dict> <key>name</key> <string>keyword.control.c.case</string> </dict>
 					</dict>
 				</dict>
 				<dict>

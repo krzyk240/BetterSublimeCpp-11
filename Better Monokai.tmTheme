@@ -144,8 +144,6 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#f92672</string>
 			</dict>
@@ -158,7 +156,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#66d9ef</string>
 			</dict>
@@ -171,7 +169,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffbf80</string>
+				<string>#F95726</string>
 			</dict>
 		</dict>
 		<dict>
@@ -182,7 +180,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffbf80</string>
+				<string>#F95726</string>
 			</dict>
 		</dict>
 		<dict>
@@ -216,6 +214,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#d4ae16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C keyword case</string>
+			<key>scope</key>
+			<string>keyword.control.c.case</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2ee282</string>
 			</dict>
 		</dict>
 		<dict>

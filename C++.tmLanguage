@@ -29,8 +29,6 @@
 	</string>
 	<key>foldingStopMarker</key>
 	<string>(?&lt;!\*)\*\*/|^\s*\}</string>
-	<key>keyEquivalent</key>
-	<string>^~C</string>
 	<key>name</key>
 	<string>C++</string>
 	<key>patterns</key>
@@ -51,7 +49,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(private:|protected:|public:)</string>
+			<string>\b(private|protected|public):?</string>
 			<key>name</key>
 			<string>storage.modifier.c++</string>
 		</dict>
